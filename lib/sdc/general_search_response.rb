@@ -3,9 +3,9 @@ module SDC
 
     def initialize(response)
       
-      puts "#{__FILE__}:#{__LINE__} [#{__method__}] #{response.inspect}"
+#      puts "#{__FILE__}:#{__LINE__} [#{__method__}] #{response.inspect}"
       h = Hashie::Mash.new(response["GeneralSearchResponse"])
-      puts "#{__FILE__}:#{__LINE__} [#{__method__}] #{h.inspect}"
+#      puts "#{__FILE__}:#{__LINE__} [#{__method__}] #{h.inspect}"
 
       SDC.map_mash_attrs(self, h)
 #      puts "#{__FILE__}:#{__LINE__} [#{__method__}] #{self.inspect}"
