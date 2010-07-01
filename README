@@ -1,0 +1,9 @@
+# SDC
+
+Shopping.com api wrapper for ruby
+
+This is derivative work from shoppr - http://github.com/squeejee/shoppr
+
+I found that there was a serious design flaw in the library and decided to use some of the concepts I found in shoppr to create a more robust solution.
+
+## Don't use this yet 
